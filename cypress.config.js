@@ -9,7 +9,7 @@ const { defineConfig } = require("cypress");
 //}
 
 //);
-
+--disable-gpu;
 module.exports = defineConfig({
   experimentalStudio: true,
 
